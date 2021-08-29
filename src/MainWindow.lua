@@ -15,7 +15,40 @@ Handy:init()
 
 main_window = Handy.Window {}
 
-main_window:add(sidebar)
+
+code_grid = Gtk.Grid{
+    expand = true,
+    orientation = Gtk.Orientation.VERTICAL
+}
+
+code_grid:add(Gtk.Label{
+    label = "Lista de Comandos"
+})
+
+paned_start = Gtk.Paned{
+    orientation = Gtk.Orientation.HORIZONTAL
+}
+paned_start:pack1(sidebar, false, false);
+paned_start:pack2(code_grid, true, false);
+
+command_grid = Gtk.Grid{
+    expand = true,
+    orientation = Gtk.Orientation.VERTICAL
+}
+
+command_grid:add(Gtk.Label{
+    label = "Detalle de Comandos"
+})
+
+paned_end = Gtk.Paned{
+    orientation = Gtk.Orientation.HORIZONTAL
+}
+
+paned_end:pack1(paned_start, false, false);
+paned_end:pack2(command_grid, false, false);
+
+
+main_window:add(paned_end)
 
 
 function main_window:on_delete_event()

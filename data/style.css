@@ -1,5 +1,5 @@
 .sidebar{
-	background: white;
+	background: #fbfbfb;
 }
 
 .sidebar:selected{
@@ -12,5 +12,5 @@
 }
 
 .titlebar{
-	background: white;
+	background: #fbfbfb;
 }

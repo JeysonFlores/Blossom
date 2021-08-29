@@ -14,12 +14,14 @@ sidebar_header.show_close_button = true
 sidebar_header:get_style_context():add_class(Gtk.STYLE_CLASS_FLAT);
 
 all_item = Granite.WidgetsSourceListItem{
-    name = "All Commands"
+    name = "All Commands",
+    badge = "15"
 }
 all_item.icon = Gio.Icon.new_for_string("utilities-terminal-symbolic")
 
 favorites_item = Granite.WidgetsSourceListItem{
-    name = "Favorites"
+    name = "Favorites",
+    badge = "5"
 }
 favorites_item.icon = Gio.Icon.new_for_string("help-about-symbolic")
 
@@ -46,17 +48,20 @@ home_category:add(settings_item)
 home_category:add(about_item)
 
 logins_item = Granite.WidgetsSourceListItem{
-    name = "Blossom"
+    name = "Blossom",
+    badge = "2"
 }
 logins_item.icon = Gio.Icon.new_for_string("mail-mark-important-symbolic")
 
 credit_cards_item = Granite.WidgetsSourceListItem{
-    name = "Flatpak"
+    name = "Flatpak",
+    badge = "5"
 }
 credit_cards_item.icon = Gio.Icon.new_for_string("mail-mark-important-symbolic")
 
 identities_item = Granite.WidgetsSourceListItem{
-    name = "Scripts"
+    name = "Scripts",
+    badge = "8"
 }
 identities_item.icon = Gio.Icon.new_for_string("mail-mark-important-symbolic")
 
