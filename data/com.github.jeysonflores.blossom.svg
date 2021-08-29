@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128mm"
+   height="128mm"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="blossom.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="128mm"
+     inkscape:object-nodes="true"
+     inkscape:zoom="0.66772387"
+     inkscape:cx="192.44482"
+     inkscape:cy="297.27857"
+     inkscape:window-width="1366"
+     inkscape:window-height="707"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="dibujo">
+    <g
+       id="g7474">
+      <g
+         id="g7457">
+        <rect
+           style="fill:#767676;fill-opacity:0.18619572;stroke:none;stroke-width:0.266424;stroke-opacity:0.25098;paint-order:fill markers stroke"
+           id="rect846-3"
+           width="104.73522"
+           height="106.04314"
+           x="11.978869"
+           y="12.024536"
+           ry="21.977312" />
+        <rect
+           style="fill:#fafaff;fill-opacity:1;stroke:none;stroke-width:0.264776;stroke-opacity:0.25098;paint-order:fill markers stroke"
+           id="rect846"
+           width="104.73522"
+           height="104.73522"
+           x="11.978869"
+           y="12.024536"
+           ry="21.706247" />
+      </g>
+      <g
+         id="g6224"
+         transform="translate(-0.93153649,5.1824955)">
+        <path
+           id="path3590"
+           style="fill:#dd91c4;fill-opacity:0.700775;stroke:none;stroke-width:0.260861;stroke-opacity:0.25098;paint-order:fill markers stroke"
+           d="m 27.351971,47.080704 a 30.072826,30.072826 0 0 0 7.290546,30.647319 30.072826,30.072826 0 0 0 30.629738,7.295489 30.072826,30.072826 0 0 0 -7.295214,-30.630013 30.072826,30.072826 0 0 0 -30.62507,-7.312795 z" />
+        <path
+           id="path3590-7"
+           style="fill:#d091dd;fill-opacity:0.700775;stroke:none;stroke-width:0.260861;stroke-opacity:0.25098;paint-order:fill markers stroke"
+           d="M 51.40373,33.203934 A 30.072826,30.072826 0 0 0 42.393868,63.390564 30.072826,30.072826 0 0 0 65.272255,85.023512 30.072826,30.072826 0 0 0 74.269421,54.849535 30.072826,30.072826 0 0 0 51.40373,33.203934 Z" />
+        <path
+           id="path3590-7-5"
+           style="fill:#9391dd;fill-opacity:0.700775;stroke:none;stroke-width:0.260861;stroke-opacity:0.25098;paint-order:fill markers stroke"
+           d="M 79.171542,33.212177 A 30.072826,30.072826 0 0 0 56.275459,54.849635 30.072826,30.072826 0 0 0 65.272255,85.023512 30.072826,30.072826 0 0 0 88.151009,63.390663 30.072826,30.072826 0 0 0 79.171542,33.212177 Z" />
+        <path
+           id="path3590-7-5-3"
+           style="fill:#91dda2;fill-opacity:0.700775;stroke:none;stroke-width:0.260861;stroke-opacity:0.25098;paint-order:fill markers stroke"
+           d="M 103.21506,47.103222 A 30.072826,30.072826 0 0 0 72.567741,54.39377 30.072826,30.072826 0 0 0 65.272255,85.023512 30.072826,30.072826 0 0 0 95.902265,77.728294 30.072826,30.072826 0 0 0 103.21506,47.103222 Z" />
+      </g>
+    </g>
+  </g>
+</svg>
