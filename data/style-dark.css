@@ -1,0 +1,16 @@
+.sidebar{
+	background: black; /* Cambiar para luego */
+}
+
+.sidebar:selected{
+	background: @theme_selected_bg_color;
+	color: @theme_selected_fg_color;
+}
+
+.side:hover{
+	color: @theme_selected_fg_color;
+}
+
+.titlebar{
+	background: black; /* Cambiar para luego */
+}

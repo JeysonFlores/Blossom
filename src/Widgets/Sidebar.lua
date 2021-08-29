@@ -46,19 +46,19 @@ home_category:add(settings_item)
 home_category:add(about_item)
 
 logins_item = Granite.WidgetsSourceListItem{
-    name = "Logins"
+    name = "Blossom"
 }
-logins_item.icon = Gio.Icon.new_for_string("dialog-password-symbolic")
+logins_item.icon = Gio.Icon.new_for_string("mail-mark-important-symbolic")
 
 credit_cards_item = Granite.WidgetsSourceListItem{
-    name = "Credit Cards"
+    name = "Flatpak"
 }
-credit_cards_item.icon = Gio.Icon.new_for_string("payment-card-symbolic")
+credit_cards_item.icon = Gio.Icon.new_for_string("mail-mark-important-symbolic")
 
 identities_item = Granite.WidgetsSourceListItem{
-    name = "Identities"
+    name = "Scripts"
 }
-identities_item.icon = Gio.Icon.new_for_string("avatar-default-symbolic")
+identities_item.icon = Gio.Icon.new_for_string("mail-mark-important-symbolic")
 
 tags_category = Granite.WidgetsSourceListExpandableItem{
     name = "Tags",
