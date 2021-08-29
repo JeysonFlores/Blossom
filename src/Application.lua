@@ -18,7 +18,7 @@ function app:on_activate()
     main_window.application = self
 
     local settings = Gio.Settings {
-        schema_id = "com.github.jeysonflores.alivio"
+        schema_id = app_id
     }
 
     local granite_settings = Granite.Settings{}

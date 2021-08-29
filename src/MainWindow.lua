@@ -7,6 +7,7 @@ local Handy = lgi.require('Handy')
 local Gio = lgi.require('Gio')
 
 require "src.Widgets.Sidebar"
+require "src.Constants"
 -- Window Building
 
 Handy:init()
@@ -20,7 +21,7 @@ main_window:add(sidebar)
 function main_window:on_delete_event()
     
     local settings = Gio.Settings {
-        schema_id = "com.github.jeysonflores.alivio"
+        schema_id = app_id
     }
 
     local root_x, root_y = main_window:get_position()
