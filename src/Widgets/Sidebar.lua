@@ -76,5 +76,4 @@ grid:add(source_list)
 
 sidebar = Gtk.EventBox{}
 sidebar:add(grid)
-sidebar:get_style_context():remove_class("sidebar")
-sidebar:get_style_context():remove_class("source-list")
+sidebar:get_style_context():add_class(Gtk.STYLE_CLASS_SIDEBAR)

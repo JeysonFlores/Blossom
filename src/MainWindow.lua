@@ -9,6 +9,7 @@ local Gio = lgi.require('Gio')
 require "src.Widgets.Sidebar"
 -- Window Building
 
+Handy:init()
 
 
 main_window = Handy.Window {}
