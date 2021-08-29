@@ -2,13 +2,16 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="128mm"
-   height="128mm"
-   viewBox="0 0 128 128"
+   width="128"
+   height="128"
+   viewBox="0 0 33.866666 33.866666"
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    sodipodi:docname="blossom.svg"
+   inkscape:export-filename="/home/jeyson/Imágenes/blossom.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,15 +28,16 @@
      showgrid="false"
      width="128mm"
      inkscape:object-nodes="true"
-     inkscape:zoom="0.66772387"
-     inkscape:cx="192.44482"
-     inkscape:cy="297.27857"
+     inkscape:zoom="2.6708955"
+     inkscape:cx="81.058956"
+     inkscape:cy="48.860018"
      inkscape:window-width="1366"
      inkscape:window-height="707"
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="layer2"
+     units="px" />
   <defs
      id="defs2" />
   <g
@@ -45,11 +49,12 @@
      id="layer2"
      inkscape:label="dibujo">
     <g
-       id="g7474">
+       id="g7474"
+       transform="matrix(0.28643659,0,0,0.28643659,-1.4898825,-1.5150226)">
       <g
          id="g7457">
         <rect
-           style="fill:#767676;fill-opacity:0.18619572;stroke:none;stroke-width:0.266424;stroke-opacity:0.25098;paint-order:fill markers stroke"
+           style="fill:#767676;fill-opacity:0.186196;stroke:none;stroke-width:0.266424;stroke-opacity:0.25098;paint-order:fill markers stroke"
            id="rect846-3"
            width="104.73522"
            height="106.04314"
