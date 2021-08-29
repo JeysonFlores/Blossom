@@ -14,10 +14,6 @@ Handy:init()
 
 main_window = Handy.Window {}
 
---main_window:add(Gtk.Image{
---    icon_name="user-home-symbolic", 
---    icon_size=Gtk.IconSize.DIALOG
---})
 main_window:add(sidebar)
 
 
