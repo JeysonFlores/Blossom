@@ -14,22 +14,36 @@ sidebar_header.show_close_button = true
 sidebar_header:get_style_context():add_class(Gtk.STYLE_CLASS_FLAT);
 
 all_item = Granite.WidgetsSourceListItem{
-    name = "All Items"
+    name = "All Commands"
 }
-all_item.icon = Gio.Icon.new_for_string("mail-mailbox-symbolic")
+all_item.icon = Gio.Icon.new_for_string("utilities-terminal-symbolic")
 
 favorites_item = Granite.WidgetsSourceListItem{
     name = "Favorites"
 }
 favorites_item.icon = Gio.Icon.new_for_string("help-about-symbolic")
 
-favorites_category = Granite.WidgetsSourceListExpandableItem{
-    name = "Favorites"
+settings_item = Granite.WidgetsSourceListItem{
+    name = "Settings"
+}
+settings_item.icon = Gio.Icon.new_for_string("emblem-system-symbolic")
+
+about_item = Granite.WidgetsSourceListItem{
+    name = "About"
+}
+about_item.icon = Gio.Icon.new_for_string("dialog-information-symbolic")
+
+home_category = Granite.WidgetsSourceListExpandableItem{
+    name = "Home",
+    expanded = true,
+    collapsible = false
 }
 
-favorites_category:expand_all()
-favorites_category:add(all_item)
-favorites_category:add(favorites_item)
+home_category:expand_all()
+home_category:add(all_item)
+home_category:add(favorites_item)
+home_category:add(settings_item)
+home_category:add(about_item)
 
 logins_item = Granite.WidgetsSourceListItem{
     name = "Logins"
@@ -46,15 +60,15 @@ identities_item = Granite.WidgetsSourceListItem{
 }
 identities_item.icon = Gio.Icon.new_for_string("avatar-default-symbolic")
 
-location_category = Granite.WidgetsSourceListExpandableItem{
-    name = "Categories"
+tags_category = Granite.WidgetsSourceListExpandableItem{
+    name = "Tags",
 }
 
 
-location_category:expand_all()
-location_category:add(logins_item)
-location_category:add(credit_cards_item)
-location_category:add(identities_item)
+tags_category:expand_all()
+tags_category:add(logins_item)
+tags_category:add(credit_cards_item)
+tags_category:add(identities_item)
 
 
 source_list = Granite.WidgetsSourceList{
@@ -63,8 +77,8 @@ source_list = Granite.WidgetsSourceList{
     }
 }
 root = source_list.root
-root:add(favorites_category)
-root:add(location_category)
+root:add(home_category)
+root:add(tags_category)
 
 grid = Gtk.Grid{
     expand = true,
