@@ -1,0 +1,7 @@
+#! /usr/bin/luajit
+--package.path = package.path .. ";/app/bin/alivio/?.lua;/app/share/lua/5.1/?.lua"
+--package.cpath = package.cpath .. ";/app/lib/lua/5.1/?.so"
+
+require "src.Application"
+
+app:run { arg[0], ... }
