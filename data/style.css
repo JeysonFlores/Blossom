@@ -7,7 +7,7 @@
 	color: @theme_selected_fg_color;
 }
 
-.side:hover{
+.sidebar:hover{
 	color: @theme_selected_fg_color;
 }
 

@@ -1,5 +1,5 @@
 .sidebar{
-	background: black; /* Cambiar para luego */
+	background: #2c2c2c; /* Cambiar para luego */
 }
 
 .sidebar:selected{
@@ -7,10 +7,10 @@
 	color: @theme_selected_fg_color;
 }
 
-.side:hover{
+.sidebar:hover{
 	color: @theme_selected_fg_color;
 }
 
 .titlebar{
-	background: black; /* Cambiar para luego */
+	background: #2c2c2c; /* Cambiar para luego */
 }
